@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/kaaba"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/takbir1"
+        android:text="الله أكبر الله أكبر"
+        android:textSize="40sp"
+        android:textColor="#ffff"
+        android:fontFamily="@font/ae_granada"
+        android:background="@drawable/gradient_right"
+        android:textAlignment="viewEnd"
+        android:paddingTop="8dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/tahlil"
+        android:text="و لا إله إلا الله"
+        android:textSize="40sp"
+        android:textColor="#ffff"
+        android:fontFamily="@font/ae_granada"
+        android:background="@drawable/gradient_left"
+        android:textAlignment="viewStart"
+        android:paddingTop="8dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/takbir1"/>
+
+    <TextView
+        android:id="@+id/takbir2"
+        android:text="الله أكبر الله أكبر"
+        android:textSize="40sp"
+        android:textColor="#ffff"
+        android:fontFamily="@font/ae_granada"
+        android:background="@drawable/gradient_right"
+        android:textAlignment="viewEnd"
+        android:paddingTop="8dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/tahlil"/>
+
+    <TextView
+        android:id="@+id/hamd"
+        android:text="و لله الحمد"
+        android:textSize="40sp"
+        android:textColor="#ffff"
+        android:fontFamily="@font/ae_granada"
+        android:background="@drawable/gradient_left"
+        android:textAlignment="viewStart"
+        android:paddingTop="8dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/takbir2"/>
+
+    <TextView
+        android:id="@+id/do3aa"
+        android:text="تقبل الله منا و منكم صالح الأعمال"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/ae_granada"
+        android:background="@drawable/gradient_center"
+        android:textAlignment="center"
+        android:paddingTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/eid"/>
+
+    <TextView
+        android:id="@+id/eid"
+        android:text="عيد أضحى مبارك وكل عام وأنتم بخير"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/ae_granada"
+        android:background="@drawable/gradient_center"
+        android:textAlignment="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
